@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arizona-code",
   "title": "Arizona Code",
   "description": "Arizona Revised Statutes — state statutes by citation.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/arizona-code",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arizona-code",
