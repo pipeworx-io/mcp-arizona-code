@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arizona-code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Arizona Revised Statutes — state statutes by citation.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9ae1f78c6e004e11e29ff689d2e1c5b347f6698fc53bbd99e6441b857a813724",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-d12659b755fed4f078d26a5f64b67e083d31ea465b081d8510d6652c95b6ae2a",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
