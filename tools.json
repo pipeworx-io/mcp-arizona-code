@@ -1,0 +1,18 @@
+[
+  {
+    "name": "az_revised_statute",
+    "description": "Get the FULL TEXT of a section of the Arizona Revised Statutes — Arizona state law — by citation. \"A.R.S. 13-1105\" is first degree murder. Returns the statutory text. Keyless. Use for \"what does Arizona Revised Statute 13-1105 say\" or to check an Arizona statute a case relies on.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "section": {
+          "type": "string",
+          "description": "Section as cited, e.g. \"13-1105\" or \"28-1381\". Title is the part before the dash."
+        }
+      },
+      "required": [
+        "section"
+      ]
+    }
+  }
+]

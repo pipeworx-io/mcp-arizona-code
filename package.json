@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-arizona-code",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Arizona Revised Statutes — state statutes by citation.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-arizona-code": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arizona-code"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-arizona-code.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/arizona-code",
   "pipeworx": {
-    "sourceHash": "v1-fa3a78fd387203a31f48f6b2b5855cdba9773bad00e1563fb67027db78e30fe1",
-    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
+    "mode": "gateway",
+    "slug": "arizona-code",
+    "gatewaySlug": "arizona-code",
+    "sourceHash": "v1-212e978f7fe24b0b8cd19bdb8c380f8bbf3b1670784b42d163a910de39a8199c",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
